@@ -20,7 +20,7 @@ public class ChessApplication extends Application {
         root.getChildren().add(chessBoard.createChessboard());
 
         Scene scene = new Scene(root, squareSize * 8, squareSize * 8);
-        primaryStage.setTitle("Chessboard");
+        primaryStage.setTitle("Chess in javafx");
         primaryStage.setScene(scene);
         primaryStage.setResizable(false);
         primaryStage.show();
